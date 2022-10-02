@@ -8,10 +8,10 @@ function writePassword() {
   var datos = generatePassword();
   var passwordText = document.querySelector("#password");
 
-  //passwordText.value = datos;
+  passwordText.value = datos;
   console.log(datos)
 
-  
+  //variables
 var letras = "abcdefghijklmnopqrstuvwxyz"
 var mayusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var numeros = "0123456789"
